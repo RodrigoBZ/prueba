@@ -195,7 +195,7 @@ NumericVector Child::FFMReference(NumericVector t){
 NumericVector Child::FMReference(NumericVector t){
    /* return fm_beta0 + fm_beta1*t;*/
     NumericMatrix fm_ref(17,nind);
-    fm_ref(0,_)   = 2.456*(1-sex)+ 2.433*sex;
+    fm_ref(0,_)   = 2.456*(1-sex)+ 2.5*sex;
     fm_ref(1,_)   = 2.576*(1 - sex) + 2.606*sex;
     fm_ref(2,_)   = 2.7*(1 - sex) + 2.8*sex;
     fm_ref(3,_)   = 2.7*(1 - sex) + 2.9*sex;
